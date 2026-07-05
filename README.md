@@ -32,6 +32,11 @@ Cloudflare Pages, or any static file host — no server, no environment
 variables. E.g. `npx vercel deploy dist` or point Netlify at
 `npm run build` / publish directory `dist`.
 
+A GitHub Actions workflow (`.github/workflows/deploy-pages.yml`) deploys to
+GitHub Pages automatically on every push to `main` (it also self-enables the
+Pages site on first run). Once this branch merges, the app goes live at
+`https://<owner>.github.io/fable-wellness-sims-assignment/`.
+
 ## What's in the prototype
 
 - **Six activity flows**, each a real interaction, not a checkbox: timed

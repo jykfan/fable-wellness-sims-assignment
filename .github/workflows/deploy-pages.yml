@@ -5,17 +5,20 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# Deploys by pushing the built site to the gh-pages branch (the classic
+# Pages source, auto-enabled when the branch exists). This only needs
+# contents:write — the actions/deploy-pages flow requires the Pages site
+# to be created via the settings API, which the workflow token used by
+# this repo is not permitted to do.
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,20 +28,15 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-      - uses: actions/configure-pages@v5
-        with:
-          # Creates the Pages site on first run so no manual settings step
-          # is needed (requires the repo to allow GitHub Actions Pages).
-          enablement: true
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Publish dist/ to gh-pages
+        run: |
+          touch dist/.nojekyll
+          cd dist
+          git init -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Deploy ${GITHUB_SHA}"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "id": "prem-zen-garden",
+      "name": "Zen Rock Garden",
+      "emoji": "🪨",
+      "category": "decor",
+      "usdCents": 99,
+      "description": "Raked sand, three stones, infinite calm."
+    },
+    {
+      "id": "prem-koi-pond",
+      "name": "Koi Pond",
+      "emoji": "🎏",
+      "category": "decor",
+      "usdCents": 199,
+      "description": "Bright koi circling beneath lily pads."
+    },
+    {
+      "id": "prem-greenhouse",
+      "name": "Glass Greenhouse",
+      "emoji": "🏵️",
+      "category": "decor",
+      "usdCents": 299,
+      "description": "A signature centerpiece for any world."
+    },
+    {
+      "id": "prem-aurora-lamp",
+      "name": "Aurora Lamp",
+      "emoji": "🌌",
+      "category": "decor",
+      "usdCents": 199,
+      "description": "Northern lights, indoors."
+    },
+    {
+      "id": "prem-kimono",
+      "name": "Silk Kimono",
+      "emoji": "👘",
+      "category": "clothing",
+      "slot": "top",
+      "color": "#a4508b",
+      "usdCents": 199,
+      "description": "Elegant lounge-wear for the avatar."
+    },
+    {
+      "id": "prem-crown",
+      "name": "Flower Crown",
+      "emoji": "🌸",
+      "category": "clothing",
+      "slot": "hat",
+      "usdCents": 99,
+      "description": "Hand-woven blossoms."
+    },
+    {
+      "id": "prem-scarf",
+      "name": "Star Scarf",
+      "emoji": "🧣",
+      "category": "clothing",
+      "slot": "accessory",
+      "usdCents": 99,
+      "description": "Constellation-patterned and warm."
+    }
+  ],
+  "bundles": [
+    {
+      "id": "bundle-serenity",
+      "name": "Serenity Starter Pack",
+      "usdCents": 299,
+      "itemIds": ["prem-zen-garden", "prem-koi-pond", "prem-crown"],
+      "description": "Three calming favorites — about 25% off buying separately ($3.97)."
+    },
+    {
+      "id": "bundle-collector",
+      "name": "Collector's Bundle",
+      "usdCents": 549,
+      "itemIds": [
+        "prem-greenhouse",
+        "prem-aurora-lamp",
+        "prem-kimono",
+        "prem-scarf"
+      ],
+      "description": "The full showcase set — about 30% off buying separately ($7.96)."
+    }
+  ]
+}

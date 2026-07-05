@@ -1,0 +1,44 @@
+[
+  {
+    "id": "meditation",
+    "kind": "meditation",
+    "name": "Guided Meditation",
+    "emoji": "🧘",
+    "blurb": "1–10 minute timed session with a breathing animation. 1 Spark per minute."
+  },
+  {
+    "id": "breathing",
+    "kind": "breathing",
+    "name": "Breathing Exercise",
+    "emoji": "🌬️",
+    "blurb": "Follow the pacer: inhale, hold, exhale. 4 Sparks per completed set of 4 cycles."
+  },
+  {
+    "id": "meal",
+    "kind": "meal",
+    "name": "Meal Tracking",
+    "emoji": "🥗",
+    "blurb": "Log what you ate. 4 Sparks per entry, plus a small daily-streak bonus."
+  },
+  {
+    "id": "exercise",
+    "kind": "exercise",
+    "name": "Exercise Tracking",
+    "emoji": "🏃",
+    "blurb": "Log a workout. 1 Spark per 2 minutes (10-min walk → 5 Sparks)."
+  },
+  {
+    "id": "gratitude",
+    "kind": "gratitude",
+    "name": "Gratitude Journal",
+    "emoji": "🙏",
+    "blurb": "Write about something you appreciate today. 5 Sparks per entry."
+  },
+  {
+    "id": "worry",
+    "kind": "worry",
+    "name": "Worry Journal",
+    "emoji": "🌧️",
+    "blurb": "Put a worry into words, then optionally reframe it. 5 Sparks per entry."
+  }
+]

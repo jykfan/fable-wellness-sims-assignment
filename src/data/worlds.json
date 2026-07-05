@@ -1,0 +1,70 @@
+[
+  {
+    "id": "cozy-cabin",
+    "name": "Cozy Cabin",
+    "emoji": "🏡",
+    "requiredLevel": 1,
+    "sky": "linear-gradient(180deg, #2b3a55 0%, #6b5b95 55%, #e8a87c 100%)",
+    "ground": "linear-gradient(180deg, #4a5d3a 0%, #37452c 100%)",
+    "slots": [
+      { "x": 14, "y": 66 },
+      { "x": 30, "y": 74 },
+      { "x": 62, "y": 70 },
+      { "x": 78, "y": 62 },
+      { "x": 88, "y": 76 },
+      { "x": 46, "y": 62 }
+    ],
+    "description": "A quiet forest hideaway. Your journey starts here."
+  },
+  {
+    "id": "garden-retreat",
+    "name": "Garden Retreat",
+    "emoji": "🌿",
+    "requiredLevel": 3,
+    "sky": "linear-gradient(180deg, #7ec8e3 0%, #bde3f0 60%, #fdf3c4 100%)",
+    "ground": "linear-gradient(180deg, #7bb661 0%, #4f8a3d 100%)",
+    "slots": [
+      { "x": 12, "y": 70 },
+      { "x": 26, "y": 62 },
+      { "x": 44, "y": 74 },
+      { "x": 60, "y": 64 },
+      { "x": 76, "y": 72 },
+      { "x": 90, "y": 64 }
+    ],
+    "description": "Sun-dappled paths and room to breathe. Unlocks at level 3."
+  },
+  {
+    "id": "city-loft",
+    "name": "City Loft",
+    "emoji": "🏙️",
+    "requiredLevel": 5,
+    "sky": "linear-gradient(180deg, #0f1b3d 0%, #37306b 55%, #e56b6f 100%)",
+    "ground": "linear-gradient(180deg, #3d3d4e 0%, #26262f 100%)",
+    "slots": [
+      { "x": 15, "y": 64 },
+      { "x": 32, "y": 72 },
+      { "x": 50, "y": 63 },
+      { "x": 66, "y": 74 },
+      { "x": 82, "y": 66 },
+      { "x": 92, "y": 76 }
+    ],
+    "description": "Skyline views and late-night calm. Unlocks at level 5."
+  },
+  {
+    "id": "beach-house",
+    "name": "Beach House",
+    "emoji": "🏖️",
+    "requiredLevel": 7,
+    "sky": "linear-gradient(180deg, #2193b0 0%, #6dd5ed 55%, #ffe8a3 100%)",
+    "ground": "linear-gradient(180deg, #f2d0a4 0%, #d9b380 100%)",
+    "slots": [
+      { "x": 12, "y": 68 },
+      { "x": 28, "y": 74 },
+      { "x": 46, "y": 66 },
+      { "x": 62, "y": 76 },
+      { "x": 78, "y": 64 },
+      { "x": 90, "y": 72 }
+    ],
+    "description": "Waves, warmth, and well-earned rest. Unlocks at level 7."
+  }
+]

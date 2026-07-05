@@ -1,0 +1,139 @@
+[
+  {
+    "id": "potted-plant",
+    "name": "Potted Plant",
+    "emoji": "🪴",
+    "category": "decor",
+    "sparks": 10,
+    "description": "A little green friend for any corner."
+  },
+  {
+    "id": "reading-lamp",
+    "name": "Reading Lamp",
+    "emoji": "🛋️",
+    "category": "decor",
+    "sparks": 15,
+    "description": "A cozy nook to unwind in."
+  },
+  {
+    "id": "campfire",
+    "name": "Campfire",
+    "emoji": "🔥",
+    "category": "decor",
+    "sparks": 20,
+    "description": "Crackling warmth for chilly evenings."
+  },
+  {
+    "id": "flower-bed",
+    "name": "Flower Bed",
+    "emoji": "🌷",
+    "category": "decor",
+    "sparks": 12,
+    "description": "Tulips that never wilt."
+  },
+  {
+    "id": "fountain",
+    "name": "Garden Fountain",
+    "emoji": "⛲",
+    "category": "decor",
+    "sparks": 35,
+    "description": "The gentle sound of trickling water."
+  },
+  {
+    "id": "telescope",
+    "name": "Telescope",
+    "emoji": "🔭",
+    "category": "decor",
+    "sparks": 40,
+    "description": "For clear-headed stargazing."
+  },
+  {
+    "id": "bookshelf",
+    "name": "Bookshelf",
+    "emoji": "📚",
+    "category": "decor",
+    "sparks": 25,
+    "description": "A well-stocked shelf of favorites."
+  },
+  {
+    "id": "beach-umbrella",
+    "name": "Beach Umbrella",
+    "emoji": "⛱️",
+    "category": "decor",
+    "sparks": 18,
+    "description": "Shade on demand."
+  },
+  {
+    "id": "tee-sage",
+    "name": "Sage Tee",
+    "emoji": "👕",
+    "category": "clothing",
+    "slot": "top",
+    "color": "#8aa87a",
+    "sparks": 12,
+    "description": "A calm, earthy green top."
+  },
+  {
+    "id": "tee-ocean",
+    "name": "Ocean Tee",
+    "emoji": "👕",
+    "category": "clothing",
+    "slot": "top",
+    "color": "#4d7ea8",
+    "sparks": 12,
+    "description": "Deep blue, like a quiet sea."
+  },
+  {
+    "id": "hoodie-sunset",
+    "name": "Sunset Hoodie",
+    "emoji": "🧥",
+    "category": "clothing",
+    "slot": "top",
+    "color": "#d97b53",
+    "sparks": 22,
+    "description": "Warm tones for cool mornings."
+  },
+  {
+    "id": "sun-hat",
+    "name": "Sun Hat",
+    "emoji": "👒",
+    "category": "clothing",
+    "slot": "hat",
+    "sparks": 15,
+    "description": "Wide-brimmed and breezy."
+  },
+  {
+    "id": "beanie",
+    "name": "Cozy Beanie",
+    "emoji": "🧢",
+    "category": "clothing",
+    "slot": "hat",
+    "sparks": 10,
+    "description": "Snug cap for cabin weather."
+  },
+  {
+    "id": "round-glasses",
+    "name": "Round Glasses",
+    "emoji": "👓",
+    "category": "clothing",
+    "slot": "accessory",
+    "sparks": 14,
+    "description": "Thoughtful. Bookish. You."
+  },
+  {
+    "id": "upgrade-hammock",
+    "name": "Hammock Upgrade",
+    "emoji": "🕸️",
+    "category": "upgrade",
+    "sparks": 50,
+    "description": "Adds a permanent lounging spot to every world."
+  },
+  {
+    "id": "upgrade-string-lights",
+    "name": "String Lights",
+    "emoji": "✨",
+    "category": "upgrade",
+    "sparks": 45,
+    "description": "Every world glows a little softer at night."
+  }
+]
